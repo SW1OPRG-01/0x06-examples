@@ -4,7 +4,6 @@
 #include <vector>
 #include <string>
 
-// Enum for blood status
 enum class BloodStatus
 {
   PureBlood,
@@ -15,7 +14,6 @@ enum class BloodStatus
   Unknown
 };
 
-// Enum for marital status
 enum class MaritalStatus
 {
   Single,
@@ -25,7 +23,6 @@ enum class MaritalStatus
   Unknown
 };
 
-// Struct to hold the date of birth (DOB) with year, month, and day
 struct DateOfBirth
 {
   int year;
@@ -33,7 +30,6 @@ struct DateOfBirth
   int day;
 };
 
-// Struct to hold character information
 struct Character
 {
   std::string firstName;
