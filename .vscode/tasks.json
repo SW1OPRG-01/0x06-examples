@@ -7,7 +7,7 @@
       "command": "g++",
       "args": [
         "-g",
-        "${workspaceFolder}/src/${fileBasename}",
+        "${fileDirname}/${fileBasename}",
         "-o",
         "${workspaceFolder}/build/${fileBasenameNoExtension}.out"
       ],
