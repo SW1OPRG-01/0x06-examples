@@ -10,7 +10,14 @@ struct Vector2D {
 double length(Vector2D vector);
 
 int main (int argc, char *argv[]) {
-  cout << length({ -2,-5 }) << endl;
+  Vector2D v1;
+  v1.x = -2;
+  v1.y = -4;
+
+  Vector2D v2 = { -2, -4 };
+  double len_v2 = length(v2);
+
+  cout << length(v1) << " " << len_v2 << " " << length(v3) << endl;
   return 0;
 }
 
