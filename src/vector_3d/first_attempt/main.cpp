@@ -4,8 +4,9 @@
 using namespace std;
 
 int main(int argc, char *argv[]) {
-  Vector3D point = { -2, -5, 3 };
-  double value = point.length();
-  cout << point.length() << endl;
+  Vector3D point = { -2, -4, 8 };
+  double value = length(point);
+  cout << value << endl;
+  
   return 0;
 }
