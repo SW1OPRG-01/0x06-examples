@@ -15,9 +15,8 @@ int main (int argc, char *argv[]) {
   v1.y = -4;
 
   Vector2D v2 = { -2, -4 };
-  double len_v2 = length(v2);
 
-  cout << length(v1) << " " << len_v2 << " " << length(v3) << endl;
+  cout << length(v1) << " " << length(v2) << endl;
   return 0;
 }
 

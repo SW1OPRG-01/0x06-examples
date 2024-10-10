@@ -6,7 +6,9 @@ using namespace std;
 double length(int x, int y);
 
 int main (int argc, char *argv[]) {
-  cout << length(-2,-5) << endl;
+  int vector_x = -2;
+  int vector_y = -5;
+  cout << length(vector_x, vector_y) << endl;
   return 0;
 }
 
