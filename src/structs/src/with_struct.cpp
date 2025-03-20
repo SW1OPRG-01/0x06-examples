@@ -9,10 +9,11 @@ int main (int argc, char *argv[]) {
   point.y = -4;
 
   Point another_point = { -2, -4 };
-
   Point destination = { 4, 4 };
 
-  cout << distance(point, destination) << " " << distance(another_point, destination) << endl;
+  cout << distance(point, destination) << " " 
+       << distance(another_point, destination) << endl;
+
   return 0;
 }
 

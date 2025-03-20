@@ -1,5 +1,5 @@
-#include "distance.h"
 #include <iostream>
+#include "distance.h"
 
 using namespace std;
 

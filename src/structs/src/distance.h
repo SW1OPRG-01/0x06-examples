@@ -1,5 +1,5 @@
-#ifndef LENGTH_H
-#define LENGTH_H
+#ifndef DISTANCE_H
+#define DISTANCE_H
 
 struct Point {
   int x;
