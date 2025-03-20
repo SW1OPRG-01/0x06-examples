@@ -1,25 +1,19 @@
-#include <cmath>
 #include <iostream>
+#include "length.h"
 
 using namespace std;
 
-struct Vector2D {
-  int x;
-  int y;
-};
-double length(Vector2D vector);
+double length(Point vector);
 
 int main (int argc, char *argv[]) {
-  Vector2D v1;
-  v1.x = -2;
-  v1.y = -4;
+  Point point;
+  point.x = -2;
+  point.y = -4;
 
-  Vector2D v2 = { -2, -4 };
+  Point another_point = { -2, -4 };
 
-  cout << length(v1) << " " << length(v2) << endl;
+  cout << length(point) << " " << length(another_point) << endl;
   return 0;
 }
 
-double length(Vector2D vector) {
-  return abs(sqrt(pow(vector.x, 2) + pow(vector.y, 2)));
-}
+
