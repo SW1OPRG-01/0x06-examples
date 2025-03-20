@@ -8,10 +8,10 @@ struct Point3D {
   int y;
   int z;
 
-  double length();
+  void add(int x, int y, int z);
 
   void print() {
-  std::cout << "(" << x << ", " << y << ", " << z << ")" << endl;
+    std::cout << "(" << x << ", " << y << ", " << z << ")" << std::endl;
   }
 };
 

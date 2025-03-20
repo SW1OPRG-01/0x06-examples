@@ -10,6 +10,9 @@ int main(int argc, char *argv[]) {
   Point3D v3 = add(v1, v2);
   
   v3.print();
+
+  v2.add(-5, -10, -15);
+  v2.print();
   
   return 0;
 }

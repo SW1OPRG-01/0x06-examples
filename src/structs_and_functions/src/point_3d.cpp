@@ -3,9 +3,10 @@
 
 using namespace std;
 
-double Point3D::length() {
-  double result = sqrt(pow(x, 2) + pow(y, 2) + pow(z, 2));
-  return abs(result);
+void Point3D::add(int x, int y, int z) {
+  this->x += x;
+  this->y += y;
+  this->z += z;
 }
 
 Point3D add(Point3D v1, Point3D v2) {

@@ -5,10 +5,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "struct/no_struct",
+      "name": "structs_and_functions/point_3d",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/no_struct",
+      "program": "${workspaceFolder}/build/point_3d",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
@@ -20,43 +20,7 @@
       "windows": {
         "MIMode": "gdb"
       },
-      "preLaunchTask": "build_no_struct"
-    },
-    {
-      "name": "struct/with_struct",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "${workspaceFolder}/build/with_struct",
-      "args": [],
-      "stopAtEntry": false,
-      "cwd": "${workspaceFolder}",
-      "environment": [],
-      "externalConsole": true,
-      "osx": {
-        "MIMode": "lldb"
-      },
-      "windows": {
-        "MIMode": "gdb"
-      },
-      "preLaunchTask": "build_with_struct"
-    },
-    {
-      "name": "struct/accessing",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "${workspaceFolder}/build/accessing",
-      "args": [],
-      "stopAtEntry": false,
-      "cwd": "${workspaceFolder}",
-      "environment": [],
-      "externalConsole": true,
-      "osx": {
-        "MIMode": "lldb"
-      },
-      "windows": {
-        "MIMode": "gdb"
-      },
-      "preLaunchTask": "build_accessing"
+      "preLaunchTask": "build_point_3d"
     }
   ]
 }
