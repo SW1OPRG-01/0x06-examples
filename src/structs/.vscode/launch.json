@@ -1,0 +1,62 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "struct/no_struct",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/no_struct",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "osx": {
+        "MIMode": "lldb"
+      },
+      "windows": {
+        "MIMode": "gdb"
+      },
+      "preLaunchTask": "build_no_struct"
+    },
+    {
+      "name": "struct/with_struct",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/with_struct",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "osx": {
+        "MIMode": "lldb"
+      },
+      "windows": {
+        "MIMode": "gdb"
+      },
+      "preLaunchTask": "build_with_struct"
+    },
+    {
+      "name": "struct/accessing",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/accessing",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "osx": {
+        "MIMode": "lldb"
+      },
+      "windows": {
+        "MIMode": "gdb"
+      },
+      "preLaunchTask": "build_accessing"
+    }
+  ]
+}

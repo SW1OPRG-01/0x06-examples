@@ -6,7 +6,7 @@ struct Point {
   int y;
 };
 
-double length(Point point);
-double length(int x, int y);
+double distance(Point, Point);
+double distance(int, int, int, int);
 
 #endif

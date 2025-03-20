@@ -1,9 +1,7 @@
 #include <iostream>
-#include "length.h"
+#include "distance.h"
 
 using namespace std;
-
-double length(Point vector);
 
 int main (int argc, char *argv[]) {
   Point point;
@@ -12,7 +10,9 @@ int main (int argc, char *argv[]) {
 
   Point another_point = { -2, -4 };
 
-  cout << length(point) << " " << length(another_point) << endl;
+  Point destination = { 4, 4 };
+
+  cout << distance(point, destination) << " " << distance(another_point, destination) << endl;
   return 0;
 }
 
