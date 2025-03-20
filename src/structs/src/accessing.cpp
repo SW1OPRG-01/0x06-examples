@@ -1,20 +1,15 @@
-#include <cmath>
+#include "distance.h"
 #include <iostream>
 
 using namespace std;
 
-struct Vector2D {
-  int x;
-  int y;
-};
-double length(Vector2D vector);
-
 int main (int argc, char *argv[]) {
-  Vector2D v = { -8, 16 };
-  cout << "Vector with x = " << to_string(v.x) << ", y = " << to_string(v.y) << " has a length of " << length(v) << endl;
-  return 0;
-}
+  
+  Point p1 = { -8, 16 };
+  Point p2 = { 8, -16 };
+  
+  cout << "Point p1 with x = " << to_string(p1.x) << ", y = " << to_string(p1.y) << endl; 
+  cout << "Point p2 with x = " << to_string(p2.x) << ", y = " << to_string(p2.y) << endl;
 
-double length(Vector2D vector) {
-  return abs(sqrt(pow(vector.x, 2) + pow(vector.y, 2)));
+  return 0;
 }
